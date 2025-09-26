@@ -1,0 +1,91 @@
+/*-----------------------------
+   ESTILO GLOBAL
+-----------------------------*/
+QWidget {
+    background-color: #e6f2ef; /* verde muy suave, menos blanco */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+/*-----------------------------
+   LABELS
+-----------------------------*/
+QLabel {
+    color: #1a1a1a;
+    font-size: 12px;
+}
+
+QLabel#titulo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2e7d32; /* verde fuerte */
+}
+
+QLabel#cronometro {
+    color: #2bf76bff; /* rojo alerta */
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 75px;
+    padding-right: 30px;
+}
+
+/*-----------------------------
+   QLineEdit
+-----------------------------*/
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #a5d6a7; /* verde claro */
+    border-radius: 5px;
+    padding: 4px 6px;
+    color: #1a1a1a;
+}
+
+QLineEdit:focus {
+    border: 2px solid #66bb6a; /* verde más intenso al enfocar */
+}
+/*-----------------------------
+   QPushButton
+-----------------------------*/
+QPushButton {
+    background-color: #4db6ac; /* azul-verde suave */
+    color: #ffffff;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #26a69a; /* azul-verde más intenso */
+}
+
+QPushButton:pressed {
+    background-color: #00897b; /* azul-verde oscuro */
+}
+
+/*-----------------------------
+   Cronómetro / Contadores
+-----------------------------*/
+QLabel#cronometro {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32; /* verde fuerte */
+}
+
+/*-----------------------------
+   ScrollAreas (si hay texto largo)
+-----------------------------*/
+QScrollArea {
+    background-color: #e6f2ef; /* mismo verde suave que el fondo general */
+    border: none;
+}
+
+/*-----------------------------
+   Mensajes / alertas
+-----------------------------*/
+QLabel.alert {
+    color: #f57c00; /* naranja alerta suave */
+    font-weight: bold;
+    }
